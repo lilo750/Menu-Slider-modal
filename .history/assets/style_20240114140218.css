@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(83, 31, 132);
+    color: #fff;
+    text-align: center;
+    padding: 14px 8px;
+
+    #signUp-btn {
+        /* background-color: black; */
+    }
+}

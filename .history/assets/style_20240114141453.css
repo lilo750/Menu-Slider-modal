@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & header {
+        background-color: rgb(71, 27, 111);
+        color: #fff;
+        text-align: center;
+        padding: 14px 8px;
+
+        #signUp-btn {
+            background-color: rgb(140, 70, 206);
+            color: inherit;
+            border: 0;
+            outline: 2px;
+            padding: 7px 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            /* font-size: 16px; */
+        }
+    }
+}
